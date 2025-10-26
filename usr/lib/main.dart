@@ -299,22 +299,22 @@ class ServicesScreen extends StatelessWidget {
           ServiceDetailCard(
             title: 'Chimney Cleaning',
             description: 'Professional chimney sweeping services including inspection, cleaning, and certification. We ensure your chimney is safe and efficient.',
-            price: 'From $99',
+            price: 'From \$99',
           ),
           ServiceDetailCard(
             title: 'Stove Installation',
             description: 'Expert installation of wood stoves, pellet stoves, and gas fireplaces. We handle all permitting and ensure proper ventilation.',
-            price: 'From $299',
+            price: 'From \$299',
           ),
           ServiceDetailCard(
             title: 'Chimney Repair',
             description: 'Repair of damaged chimney liners, caps, and flashing. We use high-quality materials for lasting results.',
-            price: 'From $149',
+            price: 'From \$149',
           ),
           ServiceDetailCard(
             title: 'Annual Maintenance',
             description: 'Comprehensive annual inspection and maintenance packages to keep your fireplace system running safely.',
-            price: 'From $79',
+            price: 'From \$79',
           ),
         ],
       ),
@@ -521,7 +521,7 @@ class AboutScreen extends StatelessWidget {
               description: 'We prioritize safety in all our services',
             ),
             const FeatureItem(
-              icon: Icons.warranty,
+              icon: Icons.shield,
               title: 'Warranty',
               description: 'We stand behind our work with comprehensive warranties',
             ),
